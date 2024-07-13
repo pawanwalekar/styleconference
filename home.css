@@ -1,0 +1,422 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: #293f50;
+    color:  #888;
+}
+
+.nav-section{
+    padding: 0rem 12rem 0rem;
+
+}
+
+.nav-section .logo{
+    float: left;
+    border-top: 4px solid #648880;
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-top: 3rem;
+    color: white;
+}
+
+.logo p:hover{
+    color: #648880;
+}
+.nav-section .navbar{
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.nav-section .tagline{
+    text-align: right;
+    padding-top: 5.8rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display:inline-block;
+    padding-left: 1rem;
+}
+
+.navbar a:hover{
+    color: #648880;
+}
+
+/*--------------------navbar end---------------*/
+
+.navinfo{
+    padding: 5rem 12rem 0rem;
+    text-align: center;
+}
+
+.navinfo p{
+    font-size: 30px;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.navinfo h1{
+    font-size: 44px;
+}
+
+.navinfo a{
+    border: 1px solid #fff;
+    padding: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+}
+
+.navinfo a:hover{
+    background-color: #fff;
+    color: #648880;
+}
+/*---------------navinfo End---------------------*/
+
+.home{
+    padding: 4rem 12rem 0rem;
+    min-height: 76vh;
+    min-width: 100%;
+    background-color: #fff;
+    margin-top: 4rem;
+}
+
+/*--------------------home end------------------*/
+.Schedule{
+    padding: 4rem 12rem 0rem;
+    min-height: 76vh;
+    min-width: 100%;
+    background-color: #fff;
+    margin-top: 4rem;
+}
+
+
+.footer{
+    padding: 4rem 12rem 0rem;
+    min-height: 17vh;
+    display: flex;
+    gap: 28rem;
+}
+
+.footernavbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.footernavbar a:hover{
+    color: #648880;
+}
+
+
+/*----------------------------footer end--------------*/
+
+
+/*---------------------link pages start---------------------*/
+
+/*----------------------heading start -------------------------*/
+
+.heading{
+    margin-top: 2.5rem;
+    padding: 3rem 2.5rem 0;
+    text-align: center;
+    color: #648880;
+    background: linear-gradient(to right,#a1d3b0,#f5eec7);
+}
+
+.heading h1{
+    font-size: 36px;
+}
+
+.heading p{
+    padding: 2rem 12rem 0;
+    font-size: 23px;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+    color: gray;
+}
+
+
+
+/*---------------------home pages start---------------------*/
+
+
+.home{
+    padding: 4rem 13rem 0rem;
+    min-height: 76vh;
+    min-width: 100%;
+    background-color: #fff;
+    margin-top: 4rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.homeinfo{
+    width: 300px;
+}
+
+.homeinfo img{
+    width: 280px;
+    height: 200px;
+    border-radius: 2%;
+    cursor: pointer;
+    margin: 1rem 0 1rem;
+}
+
+.homeinfo a{
+    text-decoration: none;
+    color: #648880;
+    font-size: 25px;
+}
+
+.homeinfo a:hover{
+    color: #9cb3ae;
+}
+
+.homeinfo p{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.homeinfo h2{
+    font-size: 15px;
+}
+/*----------------------------- Speakers page start----------*/
+
+
+.Speakers{
+    padding: 4rem 12rem 2rem;
+    min-width: 100%;
+    background-color: #fff;
+}
+
+.Speakers{
+    display: flex;
+    gap: 7rem;
+}
+
+.speaker-info{
+    width: 630px;
+}
+
+.speaker-info h1{
+    color: #648880;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.speaker-info h3{
+    font-size:0.8rem;
+    color: gray;
+}
+
+.speaker-info p{
+    font-size: 1.2rem;
+}
+
+.image img{
+    border-radius: 50%;
+    margin: -67px 0 22px 0;
+    height: 130px;
+    vertical-align: top;
+}
+
+.image .img-info a{
+    align-items: center;
+    color: gray;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.image{
+    border: 0.8px solid #c3c7ca;
+    text-align: center;
+    margin-top: 5rem;
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.speaker-info a{
+    color:#9cbddd;
+}
+
+/*-----------------------------Schedule page start----------------*/
+
+
+
+.Schedule{
+    padding: 4rem 12rem 2rem;
+    min-height: 76vh;
+    min-width: 100%;
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+.Schedule a{
+    text-decoration: none;
+    color: gray;
+}
+
+.Schedule a:hover{
+    color: rgb(179, 168, 168);
+}
+
+thead th{
+    font-size: 24px;
+    padding: 3rem;
+    color: #648880
+
+}
+
+.Schedule h3{
+    color: #648880;
+    font-weight: 100;
+}
+
+tbody td{
+    border-top: 1px solid #dfe2e5;
+    padding: 1.5rem;
+    width: 300px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+/*-----------------------------Venue page start----------------*/
+
+
+.Venue{
+    padding: 4rem 12rem 2rem;
+    min-height: 76vh;
+    min-width: 100%;
+    background-color: #fff;
+}
+
+.venues{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 0.3rem;
+}
+
+.venueinfo{
+    width: 300px;
+}
+
+.venueinfo p{
+    padding: 1rem;
+    padding-left: 0px;
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+.venueinfo a{
+    color:#648880;
+    font-size: 1.2rem;
+}
+
+.venueinfo h2{
+    font-size: 1.8rem;
+    color: #648880;
+}
+
+.venueinfo li{
+    list-style: none;
+}
+/*-----------------------------Register page start----------------*/
+
+
+.Register{
+    padding: 4rem 14.5rem 0rem;
+    min-height: 76vh;
+    min-width: 100%;
+    background-color: #fff;
+}
+
+.Register{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.register-info{
+    width: 600px;
+}
+
+.register-info h1{
+    color: #648880;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.register-info h6{
+    font-size: 0.8rem;
+}
+
+.register-info p{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.register-info a{
+    margin: bottom 3rem;
+}
+
+.register-info h2{
+    padding-top: 2rem;
+    color: #648880;
+}
+
+.register-info ul{
+    padding-top: 1.5rem;
+    margin-left: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.form{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #648880;
+}
+
+.form input{
+    border-radius: 5px;
+    border:gray 1px solid;
+    margin-bottom: 1rem;
+    width: 250px;
+    height: 30px;
+    padding-left: 1rem;
+}
+
+.form textarea{
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 1rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+.form button{
+     padding: 0.6rem 2.5rem 0.6rem;
+     background-color: #648880;
+     border-radius: 0.4rem;
+     text-transform: uppercase;
+     color: #fff;
+     border:#648880 1px solid ;
+     font-size: 0.8rem;
+     margin-top: 1rem;
+}
+
+
